@@ -25,6 +25,15 @@ html {
     text-decoration: none;
 }
 
+.nav-bar a:hover {
+    font-size: 1.2rem;
+    padding: 0.4rem;
+    transition-duration: 300ms;
+    cursor: pointer;
+    border: solid 2px #596e79;
+    border-radius: 30px;
+}
+
 .rubrik-heading {
     font-family: 'Rubik Doodle Shadow';
     font-size: 5rem;
