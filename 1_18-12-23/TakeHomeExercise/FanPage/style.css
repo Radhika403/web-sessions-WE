@@ -1,0 +1,126 @@
+html {
+    border: 1rem solid #dfd3c3;
+    background-color: #c7b198;
+    
+}
+
+.nav-bar {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1rem;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    list-style: none;
+    margin: 1rem;
+}
+
+.nav-bar li a {
+    color: rgb(10, 0, 0);
+    text-decoration: none;
+}
+
+.rubrik-heading {
+    font-family: 'Rubik Doodle Shadow';
+    font-size: 5rem;
+    text-align: center;
+}
+
+.hero{
+    margin: 100px;
+}
+
+.about{
+    display: flex;
+    padding: 1rem;
+}
+
+.about div{
+    padding: 1.5rem;
+}
+
+.about .about-text{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.history {
+    margin: 100px;
+}
+
+.half-width1 {
+    position: relative;
+    width: 20%;
+}
+
+.half-width2 {
+    position: relative;
+    width: 80%;
+}
+
+.years{
+    padding: 2rem;
+    /* display: flex;
+    align-items: center; */
+}
+
+.year{
+    display: flex;
+    justify-content: space-around;
+}
+
+.year *{
+    padding: 1rem;
+}
+
+.year p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.musical-style {
+    margin: 100px;
+}
+
+.musical-style-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.musical-style-text .center {
+    padding: 2rem;
+    text-align: center;
+}
+
+.albums{
+    display: flex;
+    justify-content: center;
+}
+
+.row1{
+    display: flex;
+}
+
+.row2{
+    display: flex;
+}
+
+.album{
+    padding: 2rem;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.album:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 250ms;
+}
