@@ -1,7 +1,8 @@
 html {
+    scroll-behavior: smooth;
     border: 1rem solid #dfd3c3;
     background-color: #c7b198;
-    
+
 }
 
 .nav-bar {
@@ -30,20 +31,20 @@ html {
     text-align: center;
 }
 
-.hero{
+.hero {
     margin: 100px;
 }
 
-.about{
+.about {
     display: flex;
     padding: 1rem;
 }
 
-.about div{
+.about div {
     padding: 1.5rem;
 }
 
-.about .about-text{
+.about .about-text {
     display: flex;
     align-items: center;
     font-size: 2rem;
@@ -64,22 +65,22 @@ html {
     width: 80%;
 }
 
-.years{
+.years {
     padding: 2rem;
     /* display: flex;
     align-items: center; */
 }
 
-.year{
+.year {
     display: flex;
     justify-content: space-around;
 }
 
-.year *{
+.year * {
     padding: 1rem;
 }
 
-.year p{
+.year p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
     text-align: justify;
@@ -89,7 +90,7 @@ html {
     margin: 100px;
 }
 
-.musical-style-text{
+.musical-style-text {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
     text-align: justify;
@@ -100,27 +101,36 @@ html {
     text-align: center;
 }
 
-.albums{
+.albums {
     display: flex;
     justify-content: center;
 }
 
-.row1{
+.row1 {
     display: flex;
 }
 
-.row2{
+.row2 {
     display: flex;
 }
 
-.album{
+.album {
     padding: 2rem;
     font-size: 0.6rem;
     text-align: center;
 }
 
-.album:hover{
+.album:hover {
     transform: scale(1.2);
     cursor: pointer;
     transition: 250ms;
+}
+
+.songs{
+    margin: 100px;
+}
+
+.videos{
+    display: flex;
+    justify-content: space-around;
 }
